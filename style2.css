@@ -1,0 +1,118 @@
+body {
+    padding-top: 80px;
+    padding-left: 150px;
+    height:100%;
+    width:100%;
+    background-image: url(pc1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover ;
+}
+
+
+.glow {
+    font-size: 40px;
+    color: #ffff;
+    text-align: left;
+    animation: glow 1s ease-in-out infinite alternate;
+}
+
+@-webkit-keyframes glow {
+    from {
+        text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+    }
+
+    to {
+        text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
+    }
+}
+
+.container {
+    margin: 10px;
+    /*background-color: aqua;*/
+    padding-top: 0px;
+    padding-left: 20px;
+    opacity: calc(90%);
+    text-align: justify;
+    height: 400px;
+    width: 800px;
+    border-radius: 20px;
+    white-space: normal;
+}
+    .chip {
+        margin: 0px;
+        /*background-color: #282A35;*/
+        text-align: justify;
+        display: inline-block;
+        font-display: unset;
+        padding: 25px;
+        width: 750PX;
+        height: 300px;
+        font-size: 40px;
+        line-height: 50px;
+        border-radius: 25px;
+    }
+
+    .chip img {
+        float: left;
+        margin: 0 10px 0 -25px;
+        height: 250px;
+        width: 250px;
+        border-radius: 50%;
+    }
+
+    .name {
+        margin: 20px;
+        color:rgb(51, 2, 249);
+        font-size: 50px;
+    }
+
+    .btn {
+        border: none;
+        border-radius:10px;
+        padding: 12px 20px;
+        font-size: 14px;
+        cursor: pointer;
+        background-color: #f1f1f6;
+        color: rgb(8, 8, 8);
+        position: relative;
+    }
+
+    .ribbon {
+        width: 60px;
+        animation: glow 1s ease-in-out infinite alternate;
+        font-size: 14px;
+        padding: 4px;
+        position: absolute;
+        right: -25px;
+        top: -12px;
+        text-align: center;
+        border-radius: 25px;
+        transform: rotate(20deg);
+        background-color: #e8f624;
+        color: rgb(6, 6, 6);
+    }
+
+    .a {
+        font-size: 30px;
+        text-align: left;
+        border-radius: 30%;
+        font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-weight: bolder;
+        white-space: break-spaces;
+        color:#f90202;
+        margin-top: 20px;
+    }
+    .chip2{
+        
+            margin: 20px;
+            /*background-color: #282A35;*/
+            text-align: justify;
+            display: inline-block;
+            font-display: unset;
+            padding: 25px;
+            width: 600PX;
+            height: 200px;
+            font-size: 30px;
+            line-height: 50px;
+            border-radius: 25px;
+    } 

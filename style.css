@@ -1,0 +1,195 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: black;
+}
+body {
+    backface-visibility: hidden;
+    background-size: cover;
+    background-repeat: repeat;
+}
+.frame {
+    /* background-image: url(background\ \(2\).jpg); */
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 580px;
+    width: 98.8vw;
+    display: flex;
+}
+.navbar { 
+    display: flex;
+     width: 100%;
+     overflow: hidden;
+     position: fixed;
+     margin-top: 20px;
+     padding-left: 100px;
+ }
+ #logo
+ {
+     height: 60px;
+     width: 80px;
+     border-radius:100%;
+ }
+ #logo:hover{
+     list-style-position: outside;
+ }
+ h2{
+    margin-top: 20px;
+    margin-left: 10px;
+    text-align: center;
+}
+.icons {
+    margin-right: 20px;
+    margin-top: 30px;
+    padding-left: 520px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight:200;
+    font-size:20px;
+    display: flex;
+    justify-content: flex-start;
+}
+ul li {
+    list-style: none;
+    padding-left: 30px;
+}
+ul li a {
+     font-weight: bold;
+     color: rgba(7, 239, 239, 0.854);
+    text-decoration: none;
+    list-style: none;    
+}
+ul li a:hover{
+    border-radius: 5%;
+    color:crimson;
+    font-size:x-large;
+    background-color: black;  
+}
+.arrow{
+    margin-left: 200px;
+    text-align: center;
+    display: flex;
+
+}
+.he {
+    font-size:xx-large;
+    color:crimson;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-style: bold;
+    margin-top: 230px;   
+}
+.name {
+    font-size: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: bold;
+    text-shadow: 5px;
+    color: rgba(7, 239, 239, 0.854);  
+}
+h1:hover {
+    color:crimson;
+}
+.Contact {
+    font-size: 22px;
+   padding: 0px;
+    margin-top: 1%;
+}
+a {
+    font-weight:bold;
+    text-decoration: none;
+    color: rgb(247, 242, 244);
+}
+#phone {
+    padding-left: 20px;
+}
+#linked {
+    padding-left: 20px;
+}
+#mail:hover{
+    font-size:larger;
+    color:crimson;
+}
+#phone:hover{
+    font-size:larger;
+    color:crimson;
+}
+#linked:hover{
+    font-size:larger;
+    color:crimson;
+}  
+.btn {
+    background-color:crimson;
+    border: none;
+    display: inline-block;
+    padding: 2px;
+    color: white;
+    text-align: center;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 10px;
+    margin-top: 30px;
+    margin-left: 30px;
+    width: 100px;
+    font-family: cursive;
+    font-family: inherit;
+    font-size: 20px;
+    line-height: inherit;
+    cursor: pointer;
+    height: 50px;
+    transition: 0.5s;
+    backdrop-filter: blur(15px);
+    letter-spacing: 1px;
+    overflow: hidden;
+}
+.btn:hover {
+    width: fit-content;
+    color: rgba(7, 239, 239, 0.854);
+    font-size:x-large;
+}
+
+
+
+
+
+
+
+
+
+/* 
+#projects {
+    display: flex;
+    font-size: x-large;
+    justify-content: space-evenly;  
+    color: crimson;
+    height: 500px;
+    width:100% ;
+    background-color: aqua;
+}
+.img2 {
+    padding: 20px;
+    margin: 0px;
+    height: 400px;
+    width:70%;
+}
+#CERTIFICATES{
+    justify-content: space-evenly;
+    display: flex;
+    color: crimson;
+    height: fit-content;
+    width: 100%; 
+    background-color: aqua;  
+} 
+#skills {
+    font-size: x-large;
+    color: crimson;
+    height: fit-content;
+    width: 100%;
+    background-color: aqua;
+    justify-content: space-evenly;
+}
+p {
+    padding-top: 20px;
+    text-align: justify;
+    text-shadow: blue;
+    border-width: inherit;
+    display: grid;
+    justify-content: space-around;
+} */
